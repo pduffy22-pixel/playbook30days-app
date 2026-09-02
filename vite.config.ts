@@ -173,7 +173,6 @@ export default defineConfig(({ command, isPreview }) => ({
             preset: "static",
             prerender: { enabled: false },
             // Auto-registers server/middleware/* ...
-            serverDir: "./server",
           }),
         ]
       : []),
