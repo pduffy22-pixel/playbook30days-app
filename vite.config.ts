@@ -175,7 +175,6 @@ export default defineConfig(({ command, isPreview }) => ({
             // Auto-registers server/middleware/* ...
             serverDir: "./server",
           }),
-          }),
         ]
       : []),
     viteReact(),
