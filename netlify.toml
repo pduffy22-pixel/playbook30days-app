@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".vercel/output/static"
+
+# Client routes (intake, playbook, meal, moves, vitamins)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
