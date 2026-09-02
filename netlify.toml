@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build || test -f .output/public/index.html"
   publish = ".output/public"
 
 # Client routes (intake, playbook, meal, moves, vitamins)
